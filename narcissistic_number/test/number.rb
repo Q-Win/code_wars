@@ -11,4 +11,10 @@ class ThingTest < Minitest::Test
 
     assert_instance_of Number, n
   end
+
+  def test_it_can_find_narcissist_number
+    n = Number.new()
+
+    assert n.narcissistic?(153)
+  end
 end

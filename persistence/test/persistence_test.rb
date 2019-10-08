@@ -7,7 +7,7 @@ require 'pry'
 class PersistenceTest < Minitest::Test
 
 
-  def test_it_can_digital_root
+  def test_it_can_persisstnce
     assert_equal persistence(39),3
     assert_equal persistence(25),2
     assert_equal persistence(999),4

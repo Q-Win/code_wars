@@ -2,5 +2,11 @@
 
 
 def persistence(n)
-
+  count = 0
+  while n > 9 do
+   number_array = n.to_s.chars.map(&:to_i)
+   n = number_array.inject(:*)
+   count += 1
+  end
+ return count
 end

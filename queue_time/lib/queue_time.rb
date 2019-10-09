@@ -6,7 +6,6 @@
 # output
 # The function should return an integer, the total time required.
 
-
 def queue_time(customers, n)
   #your code here
 end

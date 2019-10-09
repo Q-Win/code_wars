@@ -12,6 +12,6 @@ class PersistenceTest < Minitest::Test
     assert_equal queue_time([5], 1), 5
     assert_equal queue_time([2], 5), 2
     assert_equal queue_time([1,2,3,4,5], 1)
-    assert_equal queue_time(([1,2,3,4,5], 100)
+    assert_equal queue_time([1,2,3,4,5], 100)
   end
 end

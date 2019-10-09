@@ -1,12 +1,12 @@
-# Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+# There is a queue for the self-checkout tills at the supermarket. Your task is write a function to calculate the total time required for all the customers to check out!
+#
+# input
+# customers: an array of positive integers representing the queue. Each integer represents a customer, and its value is the amount of time they require to check out.
+# n: a positive integer, the number of checkout tills.
+# output
+# The function should return an integer, the total time required.
 
 
-def persistence(n)
-  count = 0
-  while n > 9 do
-   number_array = n.to_s.chars.map(&:to_i)
-   n = number_array.inject(:*)
-   count += 1
-  end
- return count
+def queue_time(customers, n)
+  #your code here
 end

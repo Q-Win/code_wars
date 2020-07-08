@@ -1,12 +1,16 @@
 def length_of_longest_substring(s)
-  used_char = []
-  unique_char = []
-  characters = s.split("")
-  characters.each do |c|
-    if used_char.include?(c)
-      
-    else
+  all_unique("abccd")
+end
 
+def all_unique(string)
+  characters = {}
+  char_array = string.split("")
+  for i in char_array do
+    if characters[i] == nil
+      characters[i] = true
+    else
+      return false
     end
   end
+  return true
 end

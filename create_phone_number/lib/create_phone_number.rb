@@ -4,3 +4,8 @@ def createPhoneNumber(numbers)
   number_string = numbers.join
   phone_number = "("+number_string[0..2]+") "+number_string[3..5]+"-"+number_string[6..-1]
 end
+
+
+def newMethod()
+  
+end
